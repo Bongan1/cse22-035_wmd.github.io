@@ -1,0 +1,150 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("img/hboscreen.jpg")
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h3 {
+  color: #fff;
+  text-shadow: 0 0 3px #9900ff, 0 0 5px #0000FF;
+}
+
+p {
+  color: #fff;
+  text-shadow: 0 0 3px #9900ff, 0 0 5px #0000FF;
+}
+
+span {
+  color: #fff;
+  text-shadow: 0 0 3px #9900ff, 0 0 5px #0000FF;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  position: relative;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #fff;
+}
+
+nav a:hover {
+  border: 0;
+  box-shadow: 0 0 3px #ffe205, 0 0 7px #ffe205, 0 0 20px #edd205;
+}
+
+nav ul ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  display: none;
+  z-index: 1;
+  min-width: 160px;
+}
+
+nav ul ul li {
+  display: block;
+}
+
+nav ul li:hover > ul {
+  display: block;
+}
+
+
+form {
+  display: flex;
+  float: right;
+}
+
+
+.feedback {
+  background-image: url("img/WarnerBackground");
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  color: #fff;
+  text-shadow: 0 0 3px #9900ff, 0 0 5px #0000FF;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0 3px #9900ff, 0 0 5px #0000FF;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  resize: vertical;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #9900ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button[type="submit"]:hover {
+  background-color: #0062cc
+
+   
+  

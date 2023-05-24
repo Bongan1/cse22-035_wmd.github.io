@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WarnerBros.com | Buy/Rent!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      body {
+         font-family: Arial, sans-serif;
+         background-image: url('WarnerBackground.jpg');
+         height: 100vh;
+         background-repeat: no-repeat;
+         width: 100%;
+         background-size: cover;
+         background-position: center;
+         margin: 0;
+         padding: 0;
+        }
+
+        footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+
+  footer figure {
+    margin-left: 6%
+    float: left;
+    display: inline-block;
+    width: 5%;
+    height: 10%;
+    border: rgba(255, 255, 255, 0.8);
+    }
+     </style>
+    <link rel="stylesheet" type="text/css" href="css/ticket.css">
+    <link rel="shortcut icon" href="WarnerLogo.png"/>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html"><img src="WarnerLogo.png" alt="Warner" style="width:30px;height:30px;"></a>
+          <ul>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="tv Shows.html">TV Shows</a></li>
+            <li><a href="games&Apps.html">Games & Apps</a></li>
+            <li><a href="collections.html">Collections</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+      </ul>
+      </li>
+      </ul>
+      <form>
+        <input type="text" placeholder="Search...">
+        <button type="submit"><img src="magnifying-glass.gif" alt="Search" style="width:25px;height:25px;"></button>
+        </form>
+    </nav>
+    <main>
+      <h1>Own It</h1>
+      <p>Today</p>
+    </main>
+    <section class="ticket-booking">
+        <div class="container">
+          <h2 class="section-title">Ownership</h2>
+          <div class="movie-details">
+            <div class="movie-poster">
+              <img src="friends.jpg" alt="Movie Poster">
+            </div>
+            <div class="movie-info">
+              <h3 class="movie-title">Friends</h3>
+              <p class="movie-genre">Genre: Romance, Drama</p>
+              <p class="movie-rating">Rating: PG 18</p>
+              <p class="movie-release-date">Release Date: September 22, 1994</p>
+            </div>
+          </div>
+          <form class="booking-form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+              <label for="movie">Select Ownership</label>
+              <select id="movie" name="movie" required>
+                <option value="">Digital</option>
+                <option value="movie1">Buy</option>
+                <option value="movie2">Rent</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="date">Select Date</label>
+              <input type="date" id="date" name="date" required>
+            </div>
+            <div class="form-group">
+              <label for="time">Select Time</label>
+              <input type="time" id="time" name="time" required>
+            </div>
+            <div class="form-group">
+              <label for="seats">Select Number Of Copies</label>
+              <input type="number" id="seats" name="seats" min="1" required>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="book-ticket">Buy/Rent</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      
+    <h3>White Space</h3>
+        <footer>
+            <p>TM & © 2023 Warner Bros. Entertainment Inc. All rights reserved. Follow Us @</p>
+            
+            <figure>
+             <div class="Link">
+             <a href="https://web.facebook.com/WarnerBrosPictures"><img src="Facebook.png" alt="Facebook" style="width:25px;height:25px;"></a>
+             </div>
+            </figure>
+               
+             <figure>
+             <div class="Link">
+             <a href="https://twitter.com/wbpictures"><img src="Twitter.png" alt="Twitter" style="width:25px;height:25px;"></a>
+             </div>
+             </figure>
+               
+               <figure>
+             <div class="Link">
+             <a href="https://www.pinterest.com/wbpictures/"><img src="Pinterest.png" alt="Pinterest" style="width:25px;height:25px;"></a>
+             </div>
+             </figure>
+               
+               <figure>
+             <div class="Link">
+             <a href="https://www.linkedin.com/company/warner-bros--entertainment/"><img src="LinkedIn.png" alt="LinkedIn" style="width:25px;height:25px;"></a>
+             </div>
+            </figure>
+            
+             <figure>
+             <div class="Link">
+             <a href="https://www.youtube.com/@WarnerBrosPictures"><img src="Youtube.png" alt="Youtube" style="width:25px;height:25px;"></a>
+             </div>
+            </figure>
+            
+             <figure>
+             <div class="Link">
+             <a href="https://www.instagram.com/wbpictures/"><img src="instagram.png" alt="Instagram" style="width:25px;height:25px;"></a>
+             </div>
+            </figure>
+            
+             <figure>
+             <div class="Link">
+             <a href="https://www.warnerbros.com/newsletter"><img src="Mail.png" alt="Email" style="width:25px;height:25px;"></a>
+             </div>
+            </figure>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,132 @@
+
+<style>
+	 body {
+      background-image: url("img/original.jfiF");
+      background-size: cover;
+	  background-attachment: fixed;
+    }
+	
+      /* Align movies from left to right */
+     .movie {
+    margin: 10px;
+    width: 180px;
+    height: 180px;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+     }
+
+.movie-description {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  display: none;
+  min-width: 200px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+     .movie:hover .movie-description {
+                display: block;
+				margin: 10px;
+                width: 180px;
+                height: 180px;
+				top: 94.5%; /* center vertically */
+                left: 0%; /* center horizontally */
+          }
+		  
+     nav {
+       position: relative; /* set nav as a positioned element */
+       padding: 150px;
+       background-image: url("img/warnerbrosbanner.png");
+       background-size: cover;
+	   display: block;
+       margin-left: auto;
+       margin-right: auto;
+      }
+
+      nav ul {
+          position: absolute; /* set ul as an absolute positioned element */
+          top: 100%; /* center vertically */
+          left: 48%; /* center horizontally */
+          transform: translate(-50%, -50%); /* center precisely */
+          display: flex;
+      }
+
+      nav li {
+        margin-left: 20px;
+      }
+
+      nav li:first-child {
+         margin-left: 0;
+      }
+
+      nav a {
+        display: block;
+        padding: 5px;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 1px;
+		border-style: outset;
+        color: #333;
+        text-decoration: none;
+      }
+
+      nav a:hover {
+          background-color: rgba(255, 255, 255, 0.8);
+      }	
+	  
+	  button {
+         display: inline-block;
+         padding: 12px 24px;
+         font-size: 16px;
+         font-weight: bold;
+         color: #fff;
+          background-color: #007bff;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+      }
+  
+     button:hover {
+      background-color: #0062cc;
+      }  
+
+      button:active {
+       background-color: #005cbf;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4) inset;
+      }
+	  
+	      .home-moving-banner {
+           display: block;
+           margin-left: auto;
+           margin-right: auto;
+		   white-space: normal;
+            }
+			
+			 img {
+           display: block;
+           margin-left: auto;
+           margin-right: auto;
+		   white-space: normal;
+            }
+	  
+	  footer{
+		    text-align: center;
+			padding: -15px;
+			border-style: outset;
+			color: white;
+			background-color: rgba(255, 255, 255, 0.8);
+			clear: both
+			}
+			
+			
+		footer figure{
+		    margin-left: 6%
+			float: left;
+			display: inline-block
+			}	
+	  
+    </style>

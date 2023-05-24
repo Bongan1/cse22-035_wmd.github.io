@@ -1,0 +1,151 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("img/hboscreen.jpg")
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  position: relative;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #fff;
+}
+
+nav a:hover {
+  border: 0;
+  box-shadow: 0 0 3px #ffe205, 0 0 7px #ffe205, 0 0 20px #edd205;
+}
+
+nav ul ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  display: none;
+  z-index: 1;
+  min-width: 160px;
+}
+
+nav ul ul li {
+  display: block;
+}
+
+nav ul li:hover > ul {
+  display: block;
+}
+
+
+form {
+  display: flex;
+  float: right;
+}
+
+
+.movie {
+    background-image: url("img/hboscreen.jpg");
+    padding: 50px 0;
+    }
+    
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    
+    .movie-header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .movie-poster {
+      flex: 1;
+      max-width: 300px;
+      margin-right: 50px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .movie-poster img {
+      width: 100%;
+      height: auto;
+    }
+    
+    .movie-info {
+      flex: 1;
+    }
+    
+    .movie-title {
+      margin-top: 0;
+      margin-bottom: 20px;
+      font-size: 2.5rem;
+    }
+    
+    .movie-genre,
+    .movie-rating,
+    .movie-release-date {
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+    }
+    
+    .movie-description {
+      margin-bottom: 20px;
+    }
+    
+    .movie-trailer {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+    
+    .movie-trailer:hover {
+      background-color: #0062cc;
+    }
+  
+    h2 {
+        font-size: 36px;
+        color: #fff;
+        text-shadow: 0 0 3px #9900ff, 0 0 5px #0000FF;
+      }
+      
+      p {
+        font-size: 18px;
+        line-height: 1.5;
+        color: #fff;
+        text-shadow: 0 0 3px #9900ff, 0 0 5px #0000FF;
+      }
+ 
+  
